@@ -1,5 +1,7 @@
 name: python-env
 
 hooks:
-  pre-staging: [env]
-
+  pre-staging: 
+    - env
+  post-staging:
+    - ls -l
