@@ -20,4 +20,6 @@ html_template = r'''
 def index():
     return template(html_template, envlist=os.environ)
 
-run(host='0.0.0.0', port=int(os.getenv("PORT", 8080)))
+print("I shall flap")
+# run(host='0.0.0.0', port=int(os.getenv("PORT", 8080)))
+run(host='0.0.0.0', port=80)
