@@ -8,3 +8,7 @@
 ## Deploying to Stackato
 
     stackato push -n
+
+## Deploying to Cloud Foundry
+
+    cf push pythonenv
