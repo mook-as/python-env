@@ -1,5 +1,7 @@
 applications:
-- name: python-env
+- name: ((name))
   buildpack: https://github.com/cloudfoundry/python-buildpack
   memory: 32M
   stack: cflinuxfs2
+  services:
+  - ((name))-db
